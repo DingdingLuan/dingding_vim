@@ -3,6 +3,6 @@ Vim customization for owner dingding :)
 
 # How to use?
 ```bash
-# Get the installation script and execute
+# Install & configure with one-line command
 wget https://ddog.host/op/getdingvim.sh && bash getdingvim.sh
 ```
