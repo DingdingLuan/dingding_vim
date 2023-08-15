@@ -3,9 +3,6 @@ Vim customization for owner dingding :)
 
 # How to use?
 ```bash
-# First, get the installation script
-wget https://ddog.host/op/getdingvim.sh
-
-# Second, execute it
-chmod +x getdingvim.sh && ./getdingvim.sh
+# Get the installation script and execute
+wget https://ddog.host/op/getdingvim.sh && chmod +x getdingvim.sh && ./getdingvim.sh
 ```

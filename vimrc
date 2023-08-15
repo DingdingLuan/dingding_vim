@@ -70,8 +70,8 @@ set foldenable
 set foldmethod=syntax
 set incsearch
 set hlsearch
-"colorscheme synthwave
-colorscheme potato
+colorscheme synthwave
+"colorscheme potato
 syntax on
 :inoremap ( ()<ESC>i
 :inoremap { {}<ESC>i
