@@ -1,14 +1,14 @@
 
-#########################################
-###  Edited by dingding, 2021.04.18   ###
-###   If you wanna commentary in EN   ###
-### Contact me at dingdluan@gmail.com ###
-#########################################
+"#########################################
+"###  Edited by dingding, 2021.04.18   ###
+"###   If you wanna commentary in EN   ###
+"### Contact me at dingdluan@gmail.com ###
+"#########################################
 
-#################################################
-# Repository url:
-#   https://github.com/DingdingLuan/dingding_vim
-#################################################
+"#################################################
+"# Repository url:
+"#   https://github.com/DingdingLuan/dingding_vim
+"#################################################
 
 
 
