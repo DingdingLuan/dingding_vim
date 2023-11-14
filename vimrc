@@ -21,6 +21,7 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'kien/ctrlp.vim'
 "Plugin 'scrooloose/syntastic'
 Plugin 'nvie/vim-flake8'
+Plugin 'godlygeek/tabular'
 call vundle#end()
 filetype plugin indent on
 set splitbelow
