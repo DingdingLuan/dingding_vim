@@ -8,6 +8,8 @@
 "=================================================
 " Repository url:
 "   https://github.com/DingdingLuan/dingding_vim
+" Blog and tutorial url:
+"   https://2199k.cn/83DPInaWj/
 "=================================================
 
 
@@ -164,7 +166,7 @@ function! DisableHighlight()
 endfunc
 
 
-"Comman 全局复制粘贴操作
+"Comman 全局复制粘贴操作(与系统剪贴板寄存器共享)
 map <C-A> ggVG
 map! <C-A> <Esc> ggVGY
 "放弃了复制粘贴，因为和V-block模式冲突了
