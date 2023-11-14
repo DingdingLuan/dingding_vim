@@ -175,6 +175,17 @@ set background=dark
 
 hi Normal guibg=NONE ctermbg=NONE
 
+"c++
+let s:extfname= expand("%:e")
+if s:extfname==? "cc"
+		nnoremap<silent> <c-b> <CR><Esc>:w !file='%';filename=`basename $file .cc`;g++ $file -o $filename && ./$filename<CR>
+endif
+
+" 20220212, 添加快捷操作窗口大小
+nnoremap + :res +5<CR>
+nnoremap _ :res -5<CR>
+" 20220212, 添加打开zsh终端快捷键
+nnoremap <S-t> :term zsh<CR>
 
 " 设置 'Ctrl+Shift+A' 
 " 为 'Tabularize /' 的快捷键
