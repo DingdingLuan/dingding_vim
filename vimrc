@@ -186,6 +186,8 @@ nnoremap + :res +5<CR>
 nnoremap _ :res -5<CR>
 " 20220212, 添加打开zsh终端快捷键
 nnoremap <S-t> :term zsh<CR>
+" 20231114, 配置彩虹括号
+let g:rainbow_active = 1
 
 " 设置 'Ctrl+Shift+A' 
 " 为 'Tabularize /' 的快捷键
