@@ -20,6 +20,7 @@ call plug#begin('~/.vim/bundle')
 "  before this, you should:
 "   On linux: 
 "   	curl -sL install-node.now.sh/lts | bash
+"   	curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
 "   On mac:
 "   	brew install nodejs yarn
 Plug 'neoclide/coc.nvim', {'branch': 'release'}    
