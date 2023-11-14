@@ -156,9 +156,10 @@ endfunc
 "Comman 全局复制粘贴操作
 map <C-A> ggVG
 map! <C-A> <Esc> ggVGY
-map <C-v> "+gp
-map <C-c> "+y
-imap <C-v> <Esc> "+gp
+"放弃了复制粘贴，因为和V-block模式冲突了
+"map <C-v> "+gp
+"map <C-c> "+y
+"imap <C-v> <Esc> "+gp
 
 
 set rtp+=/root/miniconda3/lib/python3.9/site-packages/powerline/bindings/vim
@@ -172,3 +173,10 @@ set termencoding=utf-8
 set background=dark
 
 hi Normal guibg=NONE ctermbg=NONE
+
+
+" 设置 'Ctrl+Shift+A' 
+" 为 'Tabularize /' 的快捷键
+" 后续自己添加一下对其符号即可
+" win linux和mac都通用
+vmap <C-S-a> :Tabularize /
