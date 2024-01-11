@@ -79,8 +79,8 @@ set selection=exclusive
 set ruler						" 显示光标当前位置（右下角）
 set laststatus=2		" 总是显示状态栏
 
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set autoindent
 set autowrite
 set foldenable
